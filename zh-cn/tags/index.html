@@ -2,13 +2,13 @@
 <html class="has-navbar-fixed-top">
 <head>
     <meta charset="utf-8">
-<title>Tags - SongshGeo</title>
+<title>标签 - SongshGeo</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.css">
 
 
-<link href="/zh-cn/tags/index.html" rel="alternate" hreflang="zh-CN" />
+<link href="/tags/index.html" rel="alternate" hreflang="en" />
     
 
 
@@ -21,10 +21,10 @@
     <meta name="description" content="This is a short description.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="SongshGeo">
-<meta property="og:url" content="http://example.com/tags/index.html">
+<meta property="og:url" content="http://example.com/zh-cn/tags/index.html">
 <meta property="og:site_name" content="SongshGeo">
 <meta property="og:description" content="This is a short description.">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="Shuang Song">
 <meta name="twitter:card" content="summary">
 
@@ -81,7 +81,7 @@
 <nav class="navbar is-transparent is-fixed-top navbar-main" role="navigation" aria-label="main navigation">
     <div class="container">
         <div class="navbar-brand">
-            <a class="navbar-item navbar-logo" href="/">
+            <a class="navbar-item navbar-logo" href="/zh-cn">
                 
                 <img src="/images/logo.png" alt="" height="28">
                 
@@ -96,22 +96,19 @@
         <div class="navbar-menu navbar-start">
             
             <a class="navbar-item "
-               href="/archives">Archives</a>
+               href="/zh-cn/archives">归档</a>
             
             <a class="navbar-item "
-               href="/categories">Categories</a>
-            
-            <a class="navbar-item is-active"
-               href="/tags">Tags</a>
+               href="/zh-cn/categories/Documentation">文档</a>
             
             <a class="navbar-item "
-               href="/about">About</a>
+               href="/about">关于</a>
             
         </div>
         
         <div class="navbar-menu navbar-end">
             
-            <a class="navbar-item search" title="Search" href="javascript:;">
+            <a class="navbar-item search" title="搜索" href="javascript:;">
                 <i class="fas fa-search"></i>
             </a>
             
@@ -132,7 +129,7 @@
                 <span class="icon">
                     <i class="fas fa-globe"></i>
                 </span>
-                <span>English</span>
+                <span>简体中文</span>
                 <span class="icon is-small">
             <i class="fas fa-angle-down" aria-hidden="true"></i>
           </span>
@@ -161,7 +158,7 @@
     <section class="section section-heading">
     <div class="container">
         <div class="content">
-            <h5>#Tags</h5>
+            <h5>#标签</h5>
         </div>
     </div>
 </section>
@@ -224,7 +221,7 @@
     window.FontAwesomeConfig = {
         searchPseudoElements: true
     }
-    moment.locale("en-AU");
+    moment.locale("zh-CN");
 </script>
 
 
@@ -350,7 +347,7 @@
     <div class="searchbox-mask"></div>
     <div class="searchbox-container ins-search-container">
         <div class="searchbox-input-wrapper">
-            <input type="text" class="searchbox-input ins-search-input" placeholder="Type something..." />
+            <input type="text" class="searchbox-input ins-search-input" placeholder="站内搜索" />
             <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="searchbox-result-wrapper ins-section-wrapper">
@@ -362,13 +359,13 @@
     (function (window) {
         var INSIGHT_CONFIG = {
             TRANSLATION: {
-                POSTS: 'Posts',
-                PAGES: 'Pages',
-                CATEGORIES: 'Categories',
-                TAGS: 'Tags',
-                UNTITLED: '(Untitled)',
+                POSTS: '文章',
+                PAGES: '页面',
+                CATEGORIES: '分类',
+                TAGS: '标签',
+                UNTITLED: '(无标题)',
             },
-            CONTENT_URL: '/content.json',
+            CONTENT_URL: '/content.zh-cn.json',
         };
         window.INSIGHT_CONFIG = INSIGHT_CONFIG;
     })(window);
